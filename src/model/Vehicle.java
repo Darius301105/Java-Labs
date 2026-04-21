@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Vehicle {
     private String brand;
     private double speed;
@@ -47,14 +49,14 @@ public abstract class Vehicle {
 
     public void rent(){
         if(rented){
-            throw new  IllegalStateException("Vehicle " + id + " is already rented!");
+            throw new  IllegalStateException("model.Vehicle " + id + " is already rented!");
         }
         rented = true;
     }
 
     public void returnVehicle(int drivenKm) {
         if (!rented) {
-            throw new IllegalStateException("Vehicle " + id + " is not currently rented!");
+            throw new IllegalStateException("model.Vehicle " + id + " is not currently rented!");
         }
         if (drivenKm <= 0) {
             throw new IllegalArgumentException("Driven kilometers must be greater than 0");

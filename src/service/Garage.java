@@ -1,3 +1,7 @@
+package service;
+
+import model.Vehicle;
+
 public class Garage {
     private Vehicle[] fleet;
     private int size_fleet;
@@ -9,7 +13,7 @@ public class Garage {
 
     public void add(Vehicle v) {
         if(size_fleet == fleet.length) {
-            throw new IllegalStateException("Garage is full");
+            throw new IllegalStateException("service.Garage is full");
         }
         if(findById(v.getId()) != null){
             throw new IllegalStateException("Duplicate vehicle id: " + v.getId());
@@ -30,7 +34,7 @@ public class Garage {
     public void rentById(String id) {
         Vehicle v = findById(id);
         if(v == null){
-            throw new IllegalStateException("Vehicle with id " + id + " not found");
+            throw new IllegalStateException("model.Vehicle with id " + id + " not found");
         }
         v.rent();
     }
@@ -38,7 +42,7 @@ public class Garage {
     public void returnById(String id, int drivenKm) {
         Vehicle v = findById(id);
         if (v == null) {
-            throw new IllegalArgumentException("Vehicle with id " + id + " not found.");
+            throw new IllegalArgumentException("model.Vehicle with id " + id + " not found.");
         }
         v.returnVehicle(drivenKm);
     }
@@ -64,7 +68,7 @@ public class Garage {
     public void printRentalEstimate(String id, int days) {
         Vehicle v = findById(id);
         if (v == null) {
-            System.out.println("Vehicle with id " + id + " not found.");
+            System.out.println("model.Vehicle with id " + id + " not found.");
             return;
         }
 

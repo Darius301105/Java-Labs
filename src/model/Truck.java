@@ -1,3 +1,5 @@
+package model;
+
 public class Truck extends Vehicle {
     private double loadCapacity;
 
@@ -15,7 +17,7 @@ public class Truck extends Vehicle {
 
     @Override
     public void move() {
-        System.out.println("Truck " + getId() + " is transporting heavy cargo.");
+        System.out.println("model.Truck " + getId() + " is transporting heavy cargo.");
     }
 
     @Override

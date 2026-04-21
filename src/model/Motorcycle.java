@@ -1,3 +1,5 @@
+package model;
+
 public class Motorcycle extends Vehicle {
     private boolean hasSidecar;
 
@@ -14,7 +16,7 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void move() {
-        System.out.println("Motorcycle " + getId() + " is speeding through traffic.");
+        System.out.println("model.Motorcycle " + getId() + " is speeding through traffic.");
     }
 
     @Override

@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Objects;
 
 public class Car extends Vehicle {
@@ -15,7 +17,7 @@ public class Car extends Vehicle {
     }
     @Override
     public void move() {
-        System.out.println("Car " + getId() + " is driving on the road");
+        System.out.println("model.Car " + getId() + " is driving on the road");
     }
 
     @Override

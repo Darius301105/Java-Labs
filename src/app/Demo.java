@@ -1,3 +1,11 @@
+package app;
+
+import model.Car;
+import model.Motorcycle;
+import model.Truck;
+import model.Vehicle;
+import service.Garage;
+
 public class Demo {
     public static void main(String[] args) {
         Garage garage = new Garage(10);
