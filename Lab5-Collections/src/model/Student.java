@@ -25,7 +25,10 @@ public class Student {
         Student student = (Student) o;
         return grade == student.grade && Objects.equals(name, student.name);
     }
-
+    @Override
+    public String toString() {
+        return "Student: name=" + name + ", grade=" + grade;
+    }
     @Override
     public int hashCode() {
         return Objects.hash(name, grade);
