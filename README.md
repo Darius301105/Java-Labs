@@ -54,3 +54,19 @@ Tasks implemented:
 - Task 9: Remove Duplicates
 - Task 10: LRU Cache (simplified)
 - Task 11: Merge Two Maps
+
+### Lab6 - Generics
+Topics:
+- generic classes
+- generic methods
+- bounded types
+- wildcards
+- generic stack
+
+Tasks implemented:
+- Task 1: Generic class with private field of type T, constructor, getter and setter
+- Task 2: Generic method `printTwice(T value)`
+- Task 3: Bounded generic method `max(T a, T b)` using `Comparable`
+- Task 4: Method `count` for generic lists
+- Task 5: Copy elements between generic lists using wildcards
+- Task 6: Generic Stack implementation with `push`, `pop`, `peek`, `isEmpty`
