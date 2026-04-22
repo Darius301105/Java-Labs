@@ -42,13 +42,15 @@ Topics:
 - duplicates removal
 - student management
 
-Tasks implemented so far:
+Tasks implemented:
 - Task 1: Student names with ArrayList
 - Task 2: Sum and average of integers
 - Task 3: Reverse a list
 - Task 4: Unique words counter
 - Task 5: Word frequency counter
 - Task 6: Phone book
-
-Upcoming:
-- Task 7+
+- Task 7: Students Management System
+- Task 8: Sort Students
+- Task 9: Remove Duplicates
+- Task 10: LRU Cache (simplified)
+- Task 11: Merge Two Maps
