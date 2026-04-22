@@ -1,6 +1,6 @@
 # Java-Labs
 
-This repository contains my Java laboratory work, organized by lab folders.
+This repository contains my Java laboratory work, organized by lab folders and packages.
 
 ## Labs included
 
