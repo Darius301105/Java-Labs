@@ -70,3 +70,18 @@ Tasks implemented:
 - Task 4: Method `count` for generic lists
 - Task 5: Copy elements between generic lists using wildcards
 - Task 6: Generic Stack implementation with `push`, `pop`, `peek`, `isEmpty`
+
+### Lab7 - Movie Database
+Topics:
+- Maven
+- JDBC
+- H2 in-memory database
+- CRUD operations
+- relational databases
+
+Tasks implemented:
+- Create `movies` table
+- Insert movies into database
+- Read all movies from database
+- Update movie title by id
+- Delete movie by id
