@@ -85,3 +85,30 @@ Tasks implemented:
 - Read all movies from database
 - Update movie title by id
 - Delete movie by id
+
+### Lab8 - Reflection
+Topics:
+- class metadata
+- fields inspection
+- methods inspection
+- dynamic object creation
+- method invocation
+- private field access
+- private method invocation
+- constructor selection
+- object inspection
+- JSON serialization
+- CSV mapping
+
+Tasks implemented:
+- Print class information
+- List all fields
+- List all methods
+- Create an object dynamically
+- Call a public method using reflection
+- Access and modify a private field
+- Invoke a private method
+- Create objects using different constructors
+- Build a simple object inspector
+- Serialize an object to JSON
+- Map CSV data to object fields
