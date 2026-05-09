@@ -8,7 +8,6 @@ import utils.ReflectionUtils;
 public class Main {
     public static void main(String[] args) {
         try {
-            System.out.println("SALUT");
             Class<?> studentClass = Student.class;
 
             // ex1
