@@ -111,4 +111,3 @@ Tasks implemented:
 - Create objects using different constructors
 - Build a simple object inspector
 - Serialize an object to JSON
-- Map CSV data to object fields
