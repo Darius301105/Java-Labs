@@ -112,3 +112,18 @@ Tasks implemented:
 - Build a simple object inspector
 - Serialize an object to JSON
 - Map CSV data to object fields
+
+### Lab9 - TCP
+Topics:
+- TCP sockets
+- client-server communication
+- multi-client communication
+- threads
+- input/output streams
+
+Tasks implemented:
+- Simple TCP server
+- Simple TCP client
+- Interactive TCP client
+- Multi-client chat server
+- Chat client for message exchange
